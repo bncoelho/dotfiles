@@ -23,6 +23,8 @@ set encoding=utf-8
 
 set number
 set incsearch
+set ruler
+
 
 set softtabstop=2
 let mapleader = ","
