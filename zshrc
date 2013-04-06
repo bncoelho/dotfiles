@@ -47,6 +47,10 @@ export EDITOR=vim
 
 bindkey -v
 
+# alias tmux="TERM=screen-256color tmux"
+# export TERM=screen-256color
+
+
 # vi style incremental search
 bindkey '^R' history-incremental-search-backward
 bindkey '^S' history-incremental-search-forward

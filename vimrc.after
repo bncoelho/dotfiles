@@ -1,0 +1,39 @@
+syntax enable
+set background=dark
+colorscheme solarized
+
+let g:solarized_termtrans = 1
+let g:Powerline_theme="solarized256"
+let g:Powerline_colorscheme="solarized256"
+let g:Powerline_symbols = 'fancy'
+set guifont=Monaco-Powerline
+set encoding=utf-8
+set nocompatible
+set t_Co=256
+
+set ruler
+
+
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929"
+"match OverLength /\%100v.\+/"
+
+" Highlight long lines {{{
+function HighlightLongLines()
+    let w:highlight_long_lines
+        \ = exists('w:highlight_long_lines') ?
+        \ ! w:highlight_long_lines : 1
+    if w:highlight_long_lines
+        let w:m1=matchadd('Search', '\%<97v.\%>93v', -1)
+        let w:m2=matchadd('ErrorMsg', '\%>96v.\+', -1)
+    else
+        call matchdelete(w:m1)
+        call matchdelete(w:m2)
+    endif
+endfunction
+" Enable it by default in all windows
+"au BufWinEnter * call HighlightLongLines()
+" Map it to <F3>
+nnoremap <silent> <F3> :call HighlightLongLines()<CR>
+"}}}
+
+
