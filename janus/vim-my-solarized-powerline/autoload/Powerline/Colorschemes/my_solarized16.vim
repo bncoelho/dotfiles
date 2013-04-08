@@ -116,7 +116,7 @@ let g:Powerline#Colorschemes#my_solarized16#colorscheme= Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
 		\ 'n': ['white', 'green', ['bold']],
-		\ 'N': ['green', 'red', ['bold']],
+		\ 'N': ['white', 'base00', ['bold']],
 		\ 'i': ['blue', 'white', ['bold']],
 		\ }),
 	\
@@ -127,7 +127,7 @@ let g:Powerline#Colorschemes#my_solarized16#colorscheme= Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
 		\ 'n': ['base02'],
-		\ 'N': ['green'],
+		\ 'N': ['white'],
 		\ 'i': ['cyan'],
 		\ }),
 	\

@@ -40,3 +40,11 @@ nnoremap <silent> <F3> :call HighlightLongLines()<CR>
 
 " Map Ctrl+Shift+f to :Ack Command 
 nnoremap <C-F> :Ack 
+
+set tags+=gems.tags
+
+map º [
+map ´ ]
+
+
+
