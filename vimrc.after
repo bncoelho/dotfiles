@@ -50,7 +50,7 @@ map ´ ]
 let g:ctrlp_extensions = ['tag']
 
 nnoremap <silent>π :CtrlPTag<CR> 
-
+set autoread
 
 
 
