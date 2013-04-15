@@ -8,9 +8,9 @@ let g:solarized_termcolors = 16
 set nocompatible
 set t_Co=16
 
-" let g:Powerline_theme="solarized16"
-let g:Powerline_colorscheme="my_solarized16"
 let g:Powerline_symbols = 'fancy'
+let g:Powerline_theme ='default'
+let g:Powerline_colorscheme = 'solarized16'
 set guifont=Monaco-Powerline
 set encoding=utf-8
 
@@ -42,9 +42,15 @@ nnoremap <silent> <F3> :call HighlightLongLines()<CR>
 nnoremap <C-F> :Ack 
 
 set tags+=gems.tags
-
+set tags+=./tags
 map º [
 map ´ ]
+
+
+let g:ctrlp_extensions = ['tag']
+
+nnoremap <silent>π :CtrlPTag<CR> 
+
 
 
 

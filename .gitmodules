@@ -4,3 +4,6 @@
 [submodule "janus/vim-powerline"]
 	path = janus/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "janus/delimitMate"]
+	path = janus/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
