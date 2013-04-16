@@ -34,8 +34,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bnelson/.rvm/bin
-[[ -s "/Users/bnelson/.rvm/scripts/rvm" ]] && source "/Users/bnelson/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+# [[ -s "/Users/bnelson/.rvm/scripts/rvm" ]] && source "/Users/bnelson/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator_completion ]] && source $HOME/.tmuxinator/scripts/tmuxinator_completion
@@ -62,4 +62,5 @@ bindkey '^N' history-search-forward
 bindkey '\e[B' history-search-forward
 bindkey '\e[A' history-search-backward
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+eval "$(rbenv init -)"
