@@ -1,6 +1,8 @@
-# Ruby
-
-## Rbenv
+# Homebrew
+``` sh
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+```
+# Rbenv
 ~~~ sh
 $ brew update
 $ brew install rbenv
@@ -25,7 +27,6 @@ To install it run the following command:
 ```bash
 $ curl -Lo- https://bit.ly/janus-bootstrap | bash
 ```
-
 
 Janus requires `ack`, `ctags`, install the with the following commands:
 
