@@ -28,12 +28,12 @@ To install it run the following command:
 $ curl -Lo- https://bit.ly/janus-bootstrap | bash
 ```
 
-Janus requires `ack`, `ctags`, install the with the following commands:
+Janus requires `ack`, `ctags` utilities, install them with the following commands:
 
 ```bash
 $ brew install ack
 ```
-
+and
 ```bash
 $ brew install ctags
 ```
