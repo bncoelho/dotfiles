@@ -11,7 +11,7 @@ $ brew install ruby-build
 
 # Vim
 
-On Mac Os X installing MacVim updates terminal version
+On Mac Os X installing MacVim updates vim terminal version
 
 ```bash
 $ brew install macvim
@@ -37,3 +37,13 @@ $ brew install ack
 ```bash
 $ brew install ctags
 ```
+
+# Clone the repo including submodules
+```bash
+git clone --recursive git://github.com/bncoelho/dotfiles.git 
+```
+
+# Vim Powerline font
+
+Change your terminal font to use one of the patched fonts and then run
+the :PowerlineClearCache command inside vim
