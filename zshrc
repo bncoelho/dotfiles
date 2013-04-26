@@ -33,6 +33,10 @@ plugins=(git)
 
 #source $ZSH/oh-my-zsh.sh
 
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
@@ -53,8 +57,7 @@ bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward
 
 # setopt AUTO_CD
-
-bindkey '\e[B' history-search-forward
-bindkey '\e[A' history-search-backward
+bindkey "\e[A" history-beginning-search-backward-end
+bindkey "\e[B" history-beginning-search-forward-end
 
 eval "$(rbenv init -)"
