@@ -10,3 +10,12 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = git://github.com/sorin-ionescu/prezto.git
+[submodule "janus/handlebars"]
+	path = janus/handlebars
+	url = git://github.com/nono/vim-handlebars.git
+[submodule "janus/toggle-nerd-tree-width"]
+	path = janus/toggle-nerd-tree-width
+	url = https://github.com/vim-scripts/Toggle-NERDTree-width.git
+[submodule "janus/ember"]
+	path = janus/ember
+	url = https://github.com/dsawardekar/ember.vim.git

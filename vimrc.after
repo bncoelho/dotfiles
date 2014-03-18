@@ -54,5 +54,6 @@ nnoremap <silent><C-p> :CtrlP .<CR>
 
 set autoread
 
-
+filetype plugin indent on
+let g:NERDTreeWinSize = 50
 
