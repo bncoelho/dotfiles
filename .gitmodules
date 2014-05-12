@@ -34,3 +34,6 @@
 [submodule "janus/rainbow_parentheses"]
 	path = janus/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "janus/ag"]
+	path = janus/ag
+	url = https://github.com/rking/ag.vim.git
