@@ -19,3 +19,18 @@
 [submodule "janus/ember"]
 	path = janus/ember
 	url = https://github.com/dsawardekar/ember.vim.git
+[submodule "janus/vim-scala"]
+	path = janus/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "janus/vim-indent-guides"]
+	path = janus/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "janus/vim-gitgutter"]
+	path = janus/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "janus/numbers"]
+	path = janus/numbers
+	url = https://github.com/myusuf3/numbers.vim.git
+[submodule "janus/rainbow_parentheses"]
+	path = janus/rainbow_parentheses
+	url = https://github.com/kien/rainbow_parentheses.vim.git

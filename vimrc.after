@@ -57,3 +57,15 @@ set autoread
 filetype plugin indent on
 let g:NERDTreeWinSize = 50
 
+hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey
+
+nnoremap <silent> <F4> :IndentGuidesToggle<CR>
+nnoremap <silent> <F5> :GitGutterToggle<CR>
+nnoremap <silent> <F6> :NumbersToggle<CR>
+nnoremap <silent> <F7> :RainbowParenthesesToggle<CR>
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
