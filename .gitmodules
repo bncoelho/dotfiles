@@ -28,12 +28,18 @@
 [submodule "janus/vim-gitgutter"]
 	path = janus/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "janus/numbers"]
-	path = janus/numbers
-	url = https://github.com/myusuf3/numbers.vim.git
 [submodule "janus/rainbow_parentheses"]
 	path = janus/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim.git
 [submodule "janus/ag"]
 	path = janus/ag
 	url = https://github.com/rking/ag.vim.git
+[submodule "janus/vim-easymotion"]
+	path = janus/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "janus/neocomplcache"]
+	path = janus/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "janus/vim-scalaConceal"]
+	path = janus/vim-scalaConceal
+	url = https://github.com/mpollmeier/vim-scalaConceal.git
